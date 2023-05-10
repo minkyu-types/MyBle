@@ -30,10 +30,14 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    buildFeatures {
+        dataBinding = true
+    }
 }
 
 dependencies {
-    implementation "com.polidea.rxandroidble3:rxandroidble:1.17.2"
+    implementation "com.polidea.rxandroidble3:rxandroidble:1.15.2"
 
     // Kotlin
     implementation 'androidx.activity:activity-ktx:1.7.0'

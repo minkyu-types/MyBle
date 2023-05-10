@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">BleExample</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fab_btn_description">FAB</string>
+
+    <string name="str_disconnect">DISC</string>
+    <string name="str_clear">CLEAR</string>
+    <string name="str_video">VIDEO</string>
+    <string name="str_list">LIST</string>
 </resources>
